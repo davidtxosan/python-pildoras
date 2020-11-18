@@ -1,0 +1,13 @@
+print("testeo de la edad")
+edad_usuario=int(input("Introduce tu edad,por favor"))
+def testeo(edad):
+comprobacion="mayor de edad,puede pasar"
+if edad<18:
+print("eres menor de edad, no puedes pasar")
+elseif edad>18 and edad <65:
+print("puedes pasar , eres mayor de edad")
+elseif edad>65:
+print("quedate en casa, anda")
+return comprobacion
+
+print(testeo(int(edad)))
